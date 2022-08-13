@@ -1,20 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-=======
-=======
->>>>>>> a41295d836ff5d72c472a953d3acd0f1e36657e4
+.idea
 /vendor/
 node_modules/
 npm-debug.log
@@ -38,7 +22,3 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
-<<<<<<< HEAD
->>>>>>> Initial commit
-=======
->>>>>>> a41295d836ff5d72c472a953d3acd0f1e36657e4
