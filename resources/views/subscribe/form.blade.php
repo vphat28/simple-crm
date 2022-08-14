@@ -1,3 +1,4 @@
+@section('title', 'Subscribe to our list')
 <x-guest-layout>
     <div class="mx-auto max-w-6xl p-6 mt-3 flex sm:justify-center items-center bg-gray-100">
         <form class="w-full">
