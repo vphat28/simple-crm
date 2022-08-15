@@ -17,6 +17,7 @@ class AddNewColumnsToUsersTable extends Migration
             $table->string('phone_number', 20);
             $table->string('email_address', 100);
             $table->float('desired_budget');
+            $table->text('message');
         });
     }
 
