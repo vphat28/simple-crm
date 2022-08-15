@@ -11,9 +11,6 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-        <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
         @laravelViewsStyles
     </head>
     <body class="font-sans antialiased">
@@ -32,6 +29,6 @@
                 {{ $slot }}
             </main>
         </div>
-        @laravelViewsScripts(laravel-views, alpine)
+        @laravelViewsScripts
     </body>
 </html>

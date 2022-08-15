@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use App\Actions\ExportSubscriberAction;
 use App\Models\Subscriber;
 use LaravelViews\Views\TableView;
 use LaravelViews\Facades\Header;
@@ -28,6 +29,14 @@ class SubscribersTableView extends TableView
             'Message',
             'Created',
             'Updated'
+        ];
+    }
+
+    /** For actions by item */
+    protected function actionsByRow()
+    {
+        return [
+            new ExportSubscriberAction,
         ];
     }
 
