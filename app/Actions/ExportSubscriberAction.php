@@ -37,6 +37,7 @@ class ExportSubscriberAction extends Action
                                 'email' => $model->email_address,
                                 'phone_number' => $model->phone_number,
                                 'desired_budget' => $model->desired_budget,
+                                'laravel_user_id' => $model->id,
                                 'message' => $model->message,
                             ]
                         );
