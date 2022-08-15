@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Subscriber;
-use App\Models\User;
-use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 
 class SubscribeController extends Controller
@@ -47,6 +45,9 @@ class SubscribeController extends Controller
         return redirect('subscribe/thanks');
     }
 
+    /**
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function thanks()
     {
         return  view('subscribe.thanks');
