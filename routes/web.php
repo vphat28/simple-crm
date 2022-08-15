@@ -18,6 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/subscribe', [\App\Http\Controllers\SubscribeController::class, 'show']);
+Route::get('/subscribe/thanks', [\App\Http\Controllers\SubscribeController::class, 'thanks']);
+Route::post('/subscribe', [\App\Http\Controllers\SubscribeController::class, 'submit']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
