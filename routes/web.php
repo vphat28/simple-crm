@@ -28,6 +28,9 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/dashboard/subscribers', [\App\Http\Controllers\Admin\SubscribeController::class, 'index'])
          ->name('dashboard.subscribers');
+
+    Route::get('/dashboard/subscribers/{id}', [\App\Http\Controllers\Admin\SubscribeController::class, 'single'])
+         ->name('dashboard.subscribers.single');
 });
 
 require __DIR__.'/auth.php';
